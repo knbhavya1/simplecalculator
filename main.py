@@ -15,8 +15,8 @@ class calculator:
 class testCalci(unittest.TestCase):
     def test_add(self):
         self.calc = calculator()
-        result=self.calc.add(4, 4)
-        expected=8
+        result=self.calc.add(4, 5)
+        expected=9
         self.assertEqual(result, expected)
 
     def test_sub(self):
